@@ -12,7 +12,7 @@ class Sintaxis{
         chivas!! */
 
         //2. Cadenas
-       /*  System.out.println("hello, Cristian");
+        /*System.out.println("hello, Cristian");
         String cadenas = "Cristian" + "Hurtado" + "Lucas";
 
         System.out.println(cadenas);
@@ -35,7 +35,7 @@ class Sintaxis{
         //Conversion imolicita
         int num = 12;
         double numD = num;
-        System.out.println("Conversion Implicita"+x2);
+        System.out.println("Conversion Implicita: "+x2);
 
         System.out.println(x2);
         System.out.println(z1);
@@ -51,7 +51,7 @@ class Sintaxis{
         System.out.println("Aleatorio entero: "+ numAleatorio);
         System.out.println("Aleatorio double: "+ numDouble); 
 
-        //4. Solicitud de datos y lectura de los mismos
+        4. Solicitud de datos y lectura de los mismos
 
         Scanner NJR = new Scanner(System.in);
         System.out.print("Introduce cualquier dato: ");
@@ -65,7 +65,7 @@ class Sintaxis{
 
         System.out.println("Cualquier dato: "+ dato);
         System.out.println("Dato entero: "+ datoentero);
-        System.out.println("Dato decimal: "+ datodecimal); */
+        System.out.println("Dato decimal: "+ datodecimal);*/
 
         //5. Boolean, operadores logicos y operdores de comparacion
 
