@@ -25,7 +25,7 @@ public class calculadora {
                 break;
             case '/':
                 if (n2 != 0) {
-                    System.out.println("Resultado: " + (n1 / n2));
+                    System.out.println("Resultado es: " + (n1 / n2));
                 } else {
                     System.out.println("Error: División por cero.");
                 }
