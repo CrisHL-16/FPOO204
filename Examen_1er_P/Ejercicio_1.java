@@ -1,4 +1,4 @@
-//
+//Programa con fuinciones y un menu que nos permita convenrtir temperaturas a decision del usuario: centigrados (f-32)* 5/9 | fahrenheit (c* 9/5) +32 | kelvin (c + 273.15)
 package Examen_1er_P;
 import java.util.Scanner;
 
