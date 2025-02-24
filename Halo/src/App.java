@@ -1,30 +1,23 @@
 public class App {
     public static void main(String[] args) {
-       
-    Spartan jefeMaestro = new Spartan();
-    Spartan reach = new Spartan();
 
-    // asignamos los atributos del objeto
-    jefeMaestro.nombre = "Elver Galarga ";
-    jefeMaestro.salud = 100;
-    jefeMaestro.escudo = 88;
-    jefeMaestro.armaPrincipal = "cuete";
+        //Instanciar un objeto de la clase Spartan
+        Spartan jefeMaestro = new Spartan("Rifle de asalto MA5B", 90, "Jefe Maestro", 100); 
+        Spartan George = new Spartan("Martillo Gravitatorio", 100, "George", 100);
 
-    reach.nombre = "Miver Gatieza";
-    reach.salud = 100;
-    reach.escudo = 76;
-    reach.armaPrincipal = "picahielo";
-
-    // asignamos sus metodos
-    jefeMaestro.mostrarInfo();
-    jefeMaestro.atacar(" Miver Gatieza");
-    jefeMaestro.recargarArma(69);
-    jefeMaestro.correr(true);
-
-    reach.mostrarInfo();
-    reach.atacar(" Elver Galarga");
-    reach.recargarArma(70);
-    reach.correr(true);
-
+        //Uasr sus metodos 
+        jefeMaestro.mostrarInfo();
+        jefeMaestro.atacar("Elite");
+        jefeMaestro.recargarArma(65);
+        jefeMaestro.correr(true);
+        
+        //Uasr sus metodos
+        George.mostrarInfo();
+        George.atacar("covenant");
+        George.recargarArma(15);
+        George.correr(true);
     }
-} //llave de la clase
+
+    public App() {
+    }
+} //La clase Main termina aqui
