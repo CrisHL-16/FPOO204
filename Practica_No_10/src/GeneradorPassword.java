@@ -1,11 +1,16 @@
 package Practica_No_10.src;
-
 import java.util.Random;
 
 public class GeneradorPassword {
     private int longitud;
     private boolean incluirMayusculas;
     private boolean incluirCaracteresEsp;
+
+    
+
+    public void setIncluirCaracteresEsp(boolean incluirCaracteresEsp) {
+        this.incluirCaracteresEsp = incluirCaracteresEsp;
+    }
 
     public GeneradorPassword(int longitud, boolean incluirMayusculas, boolean incluirCaracteresEsp) {
         this.longitud = longitud;
@@ -53,5 +58,24 @@ public class GeneradorPassword {
         } else {
             return "Fuerte";
         }
+    }
+    public int getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(int longitud) {
+        this.longitud = longitud;
+    }
+
+    public boolean isIncluirMayusculas() {
+        return incluirMayusculas;
+    }
+
+    public void setIncluirMayusculas(boolean incluirMayusculas) {
+        this.incluirMayusculas = incluirMayusculas;
+    }
+
+    public boolean isIncluirCaracteresEsp() {
+        return incluirCaracteresEsp;
     }
 }
